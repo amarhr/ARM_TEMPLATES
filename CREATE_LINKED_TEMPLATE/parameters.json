@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageaccountname" : {
+            "type" : "string",
+            "defaultvalue" : "devepslabs"
+        },
+        "storageaccounttype" : {
+            "type" : "string",
+            "defaultvalue" : "Standard_LRS"
+        },
+        "storageaccounttype" : {
+            "type" : "string",
+            "defaultvalue" : "Standard_LRS"
+        },
+    }    
+}
